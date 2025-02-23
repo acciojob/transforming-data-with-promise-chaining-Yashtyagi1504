@@ -43,7 +43,10 @@ button.addEventListener("click",(e)=>{
 		})
 	})
 	.then(value=>{
-		output.innerText = `Result: ${value}`;
+		// output.innerText = `Result: ${value}`;
+		setTimeout(()=>{
+			output.innerText = `Result: ${value}`;
+		},1000);
 	})
 })
 
