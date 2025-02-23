@@ -30,7 +30,7 @@ button.addEventListener("click",(e)=>{
 		return new Promise((resolve,reject)=>{
 			setTimeout(()=>{
 				output.innerText = `Result: ${value}`;
-				resolve(value/3);
+				resolve(value/2);
 			},1000)
 		})
 	})
